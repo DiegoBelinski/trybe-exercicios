@@ -1,7 +1,8 @@
-# Exercícios
-*** Parte 1 - criação de arquivos e diretórios
+**Exercícios**
 
-Dica: Para criação de arquivos vazios, você pode utilizar o comando touch nome-do-arquivo.extensao.
+**##Parte 1 - criação de arquivos e diretórios**
+
+**Dica:** Para criação de arquivos vazios, você pode utilizar o comando touch nome-do-arquivo.extensao.
 
 1- Utilizando o terminal, aplique o comando de criação de diretórios que você aprendeu, crie um diretório chamado unix_tests e navegue até ele.
 
@@ -31,16 +32,16 @@ Dica: Para criação de arquivos vazios, você pode utilizar o comando touch nom
 
 
 
-Para os próximos dois exercícios, crie, de forma manual, na parte gráfica do seu sistema operacional (através do mouse), um arquivo de texto com o conteúdo abaixo, chamado skills.txt:
+**Para os próximos dois exercícios, crie, de forma manual, na parte gráfica do seu sistema operacional (através do mouse), um arquivo de texto com o conteúdo abaixo, chamado skills.txt:**
 
-Internet
-Unix
-Bash
-HTML
-CSS
-JavaScript
-React
-SQL
+- Internet
+- Unix
+- Bash
+- HTML
+- CSS
+- JavaScript
+- React
+- SQL
 
 
 1- Mostre na tela as 5 primeiras skills do arquivo skills.txt.
@@ -51,16 +52,13 @@ SQL
 
 
 
-*** Parte 2 - Manipulação & busca
+**## Parte 2 - Manipulação & busca**
 
 1- Crie um novo diretório chamado unix_tests_search e entre nele. 
 
 2- Na pasta unix_tests_search, baixe um arquivo com os nomes de todos os países do mundo utilizando o comando curl
 
-mkdir unix_tests_search
-cd unix_tests_search
 curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
-
 
 3- Mostre todo o conteúdo do arquivo countries.txt na tela.
 

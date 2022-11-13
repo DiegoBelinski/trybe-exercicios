@@ -1,4 +1,5 @@
-#Parte 1 - comandos de input e output
+# Parte 1 - comandos de input e output
+
 
 
 1- Crie a pasta unix_tests_skills e navegue até ela.
@@ -26,7 +27,10 @@
 
 
 
-#Parte 2 - Permissões
+
+
+# Parte 2 - Permissões
+
 
 
 1- Crie a pasta unix_tests_permissions e navegue até ela.
@@ -50,7 +54,10 @@
 
 
 
-#Parte 3 - Processos & jobs
+
+
+# Parte 3 - Processos & jobs
+
 
 
 1- Liste todos os processos.
@@ -78,7 +85,10 @@
 
 
 
-#Parte 4 - O despertar do terminal
+
+
+# Parte 4 - O despertar do terminal
+
 
 
 1- E para terminar com a energia óh, lá no alto, que tal aprender agora alguns comandos divertidos do Unix? ☝ 🎊

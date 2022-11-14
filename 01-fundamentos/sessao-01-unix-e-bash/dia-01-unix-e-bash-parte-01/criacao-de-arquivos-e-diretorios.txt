@@ -1,0 +1,72 @@
+### *Resolvendo os Exercicios*
+
+" Criando diretorio unix_tests " 
+mkdir unix_tests
+cd unix_tests
+
+" Criando um arquivo trybe.txt "
+touch trybe.txt
+
+" Criando uma copia do arquivo trybe.txt "
+cp trybe.txt trybe_backup.txt
+
+" Renomeando o arquivo trybe.txt "
+mv trybe.txt trybe_new.txt
+
+" Criando diretorio backup "
+mkdir backup
+
+" Movendo o arquivo trybe_backup para o diretorio backup "
+mv trybe_backup.txt backup/
+
+" Criando um novo diretorio backup "
+mkdir backup2
+
+" Movendo o arquivo trybe_backup.txt do diretorio backup para o backup2 " 
+mv backup/trybe_backup.txt backup2
+
+" Excluindo o diretorio backup "
+rm -rf backup
+
+" Renomeando o diretorio backup2 para backup "
+mv backup2 backup
+
+" Mostrar a patch atual "
+pwd
+
+" Lista os arquivos da patch atual"
+ls
+
+" Exclui o novo diretorio backup "
+rm -rf backup
+
+" Limpar o terminal "
+clear
+
+
+
+" Criando um arquivo txt com textos"
+cat > skills.txt
+
+Internet
+Unix
+Bash
+HTML
+CSS
+Javascript
+React
+SQL
+
+" Mostrar as 5 primeiras linhas do arquivo "
+cat skills.txt | head -5
+ou 
+head -5 skills.txt 
+
+" Mostrar as 4 ultimas linhas do arquivo"
+tail -4 skills.txt 
+ou 
+cat skills.txt | tail -4
+
+" Apague todos os arquivos txt. "
+rm -rf *.txt
+

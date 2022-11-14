@@ -107,8 +107,7 @@
 
 8- Veja como fica a sua sorte do dia ao contrário. Dica: utilize o comando rev;
 
-9- Execute o comando telnet towel.blinkenlights.nl e espere alguns segundos. Lembre-se de que você tem mais exercícios para fazer! 😅
-
+9- Execute o comando telnet towel.blinkenlights.nl e espere alguns segundos.
 
 
 

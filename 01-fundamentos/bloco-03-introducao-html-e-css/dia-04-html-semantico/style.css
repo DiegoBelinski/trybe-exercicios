@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(94,150,214);
+}
+
+h3,h2{
+    color: rgb(52, 67, 120);
+}
+
+p{
+    color: rgb(0, 0, 0);
+}
+
+.Menu{
+    display: inline-block;
+}

@@ -8,13 +8,15 @@ novamente para ver o que acontece!
 Você saberia explicar por que recebemos uma mensagem de erro?  */
 
 
-const myName = Diego;
-const birthCity = Osasco;
+const myName = "Diego";
+const birthCity = "Osasco";
 let birthYear = 1987;
 
 console.log(myName, birthCity, birthYear);
 birthYear = 2030;
 console.log(birthYear);
-birthCity = Sao Paulo;
+birthCity = "Sao Paulo";
 console.log(birthCity);
+/* 
+Aparece mensagem de erro pois nao e possivel alterar uma Constante */
 

@@ -1,5 +1,5 @@
 ***Objetos
-
+/*
 Crie uma variável player e atribua um objeto contendo as variáveis listadas abaixo
 let name = 'Marta';
 let lastName = 'Silva';
@@ -28,12 +28,12 @@ console.log(' A jogadora ' + player['name'] + ' ' + player['lastName'] + ' foi e
 Acesse a chave medals, usando a sintaxe meuObjeto.chave, e faça um console.log no seguinte formato: “A jogadora possui 2 medalhas de ouro e 3 medalhas de prata”.
 
 console.log(' A jogadora possui ' + player.medals.golden + ' medalhas de ouro e ' + player.medals.silver + ' medalhas de prata')
-
+*/
 
 
 
 ***FOR / IN
-
+/*
 Usando o objeto abaixo, utilize for/in e imprima no console a mensagem 'Olá xxxxx' para cada nome, substituindo o xxxxx pelo nome em questão.
 
 let names = {
@@ -59,7 +59,7 @@ let car = {
 for(let index in car) {
   console.log(index, car[index])
 }
-
+*/
 
 
 
@@ -67,7 +67,7 @@ for(let index in car) {
 
 
 ***Funcoes
-
+/*
 Faça um programa que retorne o maior de dois números. Defina, no começo do programa, duas constantes com os valores que serão comparados.
 
 function maiorNumero (a,b) {
@@ -110,3 +110,4 @@ function positiveNegative (a) {
 }
 
 console.log (positiveNegative(0))
+*/

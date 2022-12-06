@@ -55,7 +55,7 @@ let a = 3;
 let b = 5;
 
 
-console.log(`O resultado da soma de ${a} + ${b} é: ${soma}`);
+console.log(`O resultado da soma de ${a} + ${b} é: ${soma(a,b)}`);
 
 
 ??????????????????????????????????????????????????? */
@@ -67,26 +67,37 @@ console.log(`O resultado da soma de ${a} + ${b} é: ${soma}`);
 🚀 Transforme a função numeroAleatorio em uma arrow function;
  */
 /* 
-const numeroAleatorio = ( ) => Math.random
-  console.log(numeroAleatorio(Math));
-
-????????????????????????????????????????????????? */
+      const numeroAleatorio = () => Math.random()
+  console.log(numeroAleatorio());
 
 /* ________________________________________________________________________________________ */
 
 /* 🚀 Transforme a função nomeCompleto em uma arrow function; */
 
-/* const nomeCompleto = (nome, sobrenome) => `${nome} ${sobrenome}`;
- 
-console.log(nomeCompleto('Ivan','Pires'));
- */
+/* const nomeCompleto = (nome, sobrenome) => `${nome} ${sobrenome}`
+let nome = 'Ivan';
+let sobrenome = 'Pires';
+console.log(nomeCompleto(nome, sobrenome));
+  */
 
 /* ________________________________________________________________________________________ */
 /* 
 Altere a expressão if/else utilizando ternary operator; */
+/* 
+let speed = 90;
+const speedCar = (speed) => {
+  if (speed >= 120) {
+    return `Você ultrapassou o limite de velocidade`;
+  } else {
+    return `Você está na velocidade permitida`;
+  }
+};
+console.log(speedCar(speed)); */
 
+
+/* 
 let speed = 130;
 
 const speedCar = (speed) => (speed >= 120)? `Você ultrapassou o limite de velocidade` : `Você está na velocidade permitida`; 
 
-console.log(speedCar(speed));
+console.log(speedCar(speed)); */

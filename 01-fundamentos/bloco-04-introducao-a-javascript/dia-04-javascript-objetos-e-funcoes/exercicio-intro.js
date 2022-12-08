@@ -1,4 +1,4 @@
-***Objetos
+/* Objetos */
 /*
 Crie uma variável player e atribua um objeto contendo as variáveis listadas abaixo
 let name = 'Marta';
@@ -32,7 +32,7 @@ console.log(' A jogadora possui ' + player.medals.golden + ' medalhas de ouro e 
 
 
 
-***FOR / IN
+/* FOR / IN */
 /*
 Usando o objeto abaixo, utilize for/in e imprima no console a mensagem 'Olá xxxxx' para cada nome, substituindo o xxxxx pelo nome em questão.
 
@@ -66,7 +66,7 @@ for(let index in car) {
 
 
 
-***Funcoes
+/* Funcoes */
 /*
 Faça um programa que retorne o maior de dois números. Defina, no começo do programa, duas constantes com os valores que serão comparados.
 
